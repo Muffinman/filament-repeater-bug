@@ -42,7 +42,6 @@ class DiscountResource extends Resource
                             ->options(['user_id' => 'User ID', 'customer_id' => 'Customer ID'])
                             ->reactive()
                             ->required(),
-                        Forms\Components\Toggle::make('published'),
                         Forms\Components\Fieldset::make('configuration')
                             ->schema(function (\Closure $get) {
                                 $fields = [];

@@ -6,6 +6,7 @@ use App\Filament\Resources\DiscountResource\Pages;
 use App\Filament\Resources\DiscountResource\RelationManagers;
 use App\Models\Discount;
 use App\Models\Customer;
+use App\Models\User;
 use Filament\Forms;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Toggle;
